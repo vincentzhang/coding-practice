@@ -51,4 +51,4 @@ if __name__ == "__main__":
     alist = [random.randrange(1e2) for _ in range(10)]
     print "unsorted list is: %s" % alist
     print("sorted list is: %s" % sorted(alist))
-    print random_select(alist, 0, 9, 1)
+    print random_select(alist, 0, 9, 3)
